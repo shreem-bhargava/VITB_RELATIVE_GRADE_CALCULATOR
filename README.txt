@@ -31,6 +31,7 @@ screenshots folder (showing choose file button as UI)
 VITB_RELATIVE_GRADE_CALCULATOR.ipynb
 Marks.xlsx (as input file)
 VITB_GradeSystem (2).xlsx (downloaded file as output)
+Project Report 
 
 Future Improvements:
 Add graphical visualization of marks
