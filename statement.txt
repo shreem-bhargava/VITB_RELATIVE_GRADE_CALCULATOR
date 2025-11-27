@@ -1,0 +1,81 @@
+Student Information:
+Name - Shreem Bhargava
+Registration Number - 25MIM10011
+
+Problem Statement:
+Manual calculation of student grades takes time and can also cause mistakes. Relative grading requires calculating mean and standard deviation for each subject. This project automates this process.
+
+Scope:
+The program takes an Excel file which has marks of students. It calculates grades for each subject. It calculates grades for each subject using relative grading rules and creates a new excel file with every subject grade columns.
+
+Target Users:
+Teachers, Students and institutions who want quick grade calculation.
+
+Introduction:
+Grade calculation for students become difficult when the number of 
+students increases.
+This project helps to automatically calculate grade of students using 
+Python. Instead of manual grading, the system uses mean and standard 
+deviation to assign relative grades.
+The project works completely on Google Colab and produces an Excel 
+file with grade columns as output.
+
+Objective:
+• To automate grade calculation using relative grading
+• To apply grade rules for 5 subjects
+• To generate a final Excel file with grade columns
+• To simplify teachers workload
+
+Functional Requirements:
+a. Upload Excel file
+b. Read marks for S1–S5
+c. Calculate mean and SD
+d. Apply grade logic
+e. Export Excel with Grade_S1 … Grade_S5
+
+Non-Functional Requirements:
+a. Accuracy: Correct mean, SD and grade
+b. Usability: Easy upload and download
+c. Efficiency: Processes all students quickly
+d. Reliability: Same output every time
+
+Implementation Details:
+The project uses Google Colab for execution. The pandas is used to read the 
+Excel File. 
+The mean and standard deviations for each subject are calculated. 
+The get_grade() function assigns grades based on conditions.
+The final DataFrame is exported to a new Excel file.
+
+Results:
+The system produces a new Excel file named VITB_GradeSystem.xlsx.
+It contains subjects S1–S5, total, average, and new grade columns.
+
+Testing:
+Tested with:
+• High marks
+• Low marks (<40)
+• Average marks
+• Random values
+The function correctly produced S, A, B, C, D, E, and F.
+
+Challenges:
+Understanding mean–SD logic
+Adding fail condition
+Applying lambda function
+
+Learnings:
+Pandas DataFrame handling
+Using Numpy for mean/SD
+Using Google Colab for automation
+Writing grade logic function
+
+Future Enhancements:
+Add visualization
+Add Tkinter UI (optional)
+Add student name mapping
+Store data in database
+
+Conclusion:
+The project successfully automates relative grading using Python.
+It reduces manual work and produces error-free results.
+Google Colab made the implementation simple and accessible.
